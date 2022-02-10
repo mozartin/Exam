@@ -1,0 +1,16 @@
+.gallery-block {
+   position: relative;
+}
+.position {
+   position: absolute;
+   top: 0;
+   background-color: rgba(15, 14, 14, 0.342);
+   color: aliceblue;
+   height: 100%;
+   padding-top: 10%;
+   opacity: 0;
+   transition: .5s;
+}
+.position:hover {
+   opacity: 1;
+}
