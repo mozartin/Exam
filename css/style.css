@@ -14,3 +14,66 @@
 .position:hover {
    opacity: 1;
 }
+
+.img1 {
+   background-image: url(../images/camp1.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+}
+.img2 {
+   background-image: url(../images/camp2.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+}
+.img3 {
+   background-image: url(../images/camp3.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+}
+.gall1 {
+   background-image: url(../images/gallery1.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.gall2 {
+   background-image: url(../images/gallery2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.gall3 {
+   background-image: url(../images/gallery3.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.gall4 {
+   background-image: url(../images/gallery4.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+
+@media(max-width:850px){
+   .text {
+      order: 2;
+   }
+   .img1 {
+      order: 1;
+   }
+   .my-card  {
+      border: none;
+   }
+   .gall {
+      display: none;
+   }
+}
+
+@media(max-width:600){
+   .gallery-block img{
+      height: 400px;
+      
+   }
+  
+}
