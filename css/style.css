@@ -53,27 +53,69 @@
    background-size: cover;
    background-position: center;
 }
+.my-card1 {
+   border-bottom: 3px solid gray;
+   border-right: 3px solid gray;
+}
+.my-card2 {
+   border-bottom: 3px solid gray;
+   border-right: 3px solid gray;
+}
+.my-card3 {
+   border-bottom: 3px solid gray;
+}
+.my-card4 {
+   border-right: 3px solid gray;
+}
+.my-card5 {
+   border-right: 3px solid gray;
+}
 
 
-@media(max-width:850px){
+@media(max-width:992px){
+   .gall3 {
+      display: none;
+   } 
+   .gall4 {
+      display: none;
+   } 
+   .my-card2 {
+      border-right: 0px solid gray;
+   }
+   .my-card3 {
+      border-right: 3px solid gray;
+   }
+   .my-card4 {
+      border-right: 0px solid gray;
+   }
+   .my-card6 {
+      border-right: 0px solid gray;
+      border-top: 3px solid gray;
+   }
+}
+@media(max-width:768px){  
    .text {
       order: 2;
    }
    .img1 {
       order: 1;
    }
-   .my-card  {
-      border: none;
-   }
-   .gall {
-      display: none;
-   }
 }
 
-@media(max-width:600){
-   .gallery-block img{
-      height: 400px;
-      
+
+@media(max-width:576px){
+   .gall2 {
+      display: none;
+   } 
+   .my-card1 {
+      border-bottom: 3px solid gray;
+      border-right: 0px solid gray;
    }
-  
+   .my-card3 {
+      border-right: 0px solid gray;
+   }
+   .my-card5 {
+      border-top: 3px solid gray;
+      border-right: 0px solid gray;
+   }
 }
